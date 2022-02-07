@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to left, #502997f5, #1228bbd0);
+}
+nav {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+#logoLink {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  color: #fff;
+  font-size: 22px;
+}
+#navbarSupportedContent ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#navbarSupportedContent ul li a {
+  color: #fff;
+  font-size: 18px;
+}
+#navbarSupportedContent ul li a:hover {
+  color: #8147ec;
+  transition: 0.5s;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#searchInput {
+  border-radius: 20px;
+  padding-left: 15px;
+}
+#searchInput:focus {
+  box-shadow: none;
+}
+#serachBtn {
+  background-color: #502997f5;
+  color: white;
+  border-radius: 5px;
+}
+#serachBtn:hover {
+  background-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  #searchForm {
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+}
+/* navigation css end from here */
+
+.carousel-inner {
+  margin: 5% auto;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 20px;
+}
+#carouselExampleSlideOnly {
+  background-image: linear-gradient(to right, #1029d100, #2c346e00);
+}
+.col h1 {
+  font-size: 60px;
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+}
+#firstSlide h1 {
+  font-size: 90px;
+  font-weight: bold;
+}
+#firstSlide p {
+  font-size: 22px;
+  color: #fff;
+}
+.col p {
+  font-size: 22px;
+  color: #fff;
+  text-align: justify;
+}
+#justGotFun {
+  color: rgb(12, 191, 245);
+}
+.col button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0722276b;
+  color: #fff;
+  padding: 10px;
+  width: 200px;
+  height: auto;
+  font-size: 22px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+}
+.col button:hover {
+  background-color: transparent;
+}
+.col button i {
+  font-size: 22px;
+}
+button:focus {
+  box-shadow: none;
+  outline: none;
+}
+/* change transition duration to control the speed of fade effect */
+.carousel-item {
+  transition: transform 0.7s ease-in-out right;
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    text-align: justify;
+  }
+  img {
+    margin-top: 20px;
+  }
+  .col button {
+    margin: auto;
+  }
+  #firstSlide h1 {
+    font-size: 60px;
+  }
+}
+
+/* Review section */
+#review {
+  background-image: linear-gradient(to right, #502997f5, #1228bb52);
+  border-radius: 10px;
+}
+#usersDiv {
+  width: 200px;
+  height: 225px;
+  align-items: center;
+  display: block;
+  justify-content: center;
+}
+
+.users {
+  background-color: rgb(61, 166, 192);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px;
+  color: #fff;
+}
+.users h2 {
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#usersDiv h2 {
+  margin: 30px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.users1 {
+  background-color: #9a0680;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px;
+  color: #fff;
+}
+.users2 {
+  background-color: #ff5403;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px;
+  color: #fff;
+}
+.users3 {
+  background-color: #e60965;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  #usersDiv {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .users,
+  .users1,
+  .users2,
+  .users3 {
+    margin-bottom: 20px;
+  }
+}
+/* App */
+.app {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 30px;
+  margin-top: 70px;
+}
+.app h1 {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+.app .learn {
+  color: rgba(255, 255, 0, 0.767);
+}
+@media screen and (max-width: 768px) {
+  .app h1 {
+    font-size: 37px;
+    margin: auto;
+  }
+}

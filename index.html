@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- AOS CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Boxicon CDN -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon link -->
+    <link rel="icon" type="image/x-icon" href="./Images/fav.png" />
+    <!-- navigation css link -->
+    <link rel="stylesheet" href="./All CSS/navigation.css" />
+    <title>Project</title>
+  </head>
+  <body>
+    <!-- navigation menu bar start from here -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="logoLink">
+            <i class="bx bxl-c-plus-plus" id="logo"></i> Programming-hero</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" id="searchForm">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+                id="searchInput"
+              />
+              <button
+                class="btn btn-outline-success"
+                type="submit"
+                id="serachBtn"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- navigation menu bar end from here -->
+
+      <!-- corousel start from here -->
+
+      <div
+        id="carouselExampleSlideOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col" id="firstSlide">
+                <h1>Programming</h1>
+                <h1 id="justGotFun">Just Got Fun</h1>
+                <p>
+                  Personalized, fun, and interactive learning process. Enjoy our
+                  gamified courses to master python, mobile app development,
+                  cyber security, C programming, C++, and many more.
+                </p>
+                <button class="btn btn-outline-success">
+                  Explore more <i class="bx bx-chevron-right"></i>
+                </button>
+              </div>
+              <div class="col">
+                <img
+                  src="./Images/banner-phone.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col">
+                <h1>Learn Web develpment to get a job</h1>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Cupiditate, vitae? Quibusdam eveniet dolores magnam,
+                  voluptatum dolorem amet voluptas sapiente explicabo voluptatem
+                  libero reprehenderit eum deserunt aperiam unde, obcaecati
+                  impedit, esse recusandae. Veritatis debitis eveniet aspernatur
+                  nostrum facilis corrupti iure explicabo?
+                </p>
+                <button class="btn btn-outline-success">
+                  Explore more <i class="bx bx-chevron-right"></i>
+                </button>
+              </div>
+              <div class="col">
+                <img src="./Images/web.svg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col">
+                <h1>Employee: Find the perfect match for your team</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Impedit, explicabo et corporis non ad dolor soluta sit! Quasi
+                  laboriosam id nisi voluptas nam sint quis doloremque ipsa
+                  accusamus corporis deleniti nulla placeat, provident vitae
+                  eaque? Quam commodi nisi dolorem distinctio!
+                </p>
+                <button class="btn btn-outline-success">
+                  Explore more <i class="bx bx-chevron-right"></i>
+                </button>
+              </div>
+              <div class="col">
+                <img
+                  src="./Images/employer.svg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col">
+                <h1>
+                  Startup: Form your cost effective software develpment team for
+                  your team
+                </h1>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo
+                  aliquam qui cumque repudiandae, quibusdam explicabo.
+                  Repudiandae illo minus pariatur dolorem. Quidem non labore,
+                  excepturi eos adipisci necessitatibus magnam. Nihil molestias
+                  quisquam aliquam accusantium veritatis corrupti vel placeat
+                  aliquid dicta et!
+                </p>
+                <button class="btn btn-outline-success">
+                  Explore more <i class="bx bx-chevron-right"></i>
+                </button>
+              </div>
+              <div class="col">
+                <img
+                  src="./Images/startup.svg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- corousel end from here -->
+
+      <!-- review start from here -->
+
+      <div class="row" id="review" data-aos="fade-up" data-aos-duration="2000">
+        <div class="col" id="usersDiv">
+          <div class="users">
+            <h2>5K</h2>
+          </div>
+          <h2>Users</h2>
+        </div>
+        <div class="col" id="usersDiv">
+          <div class="users1">
+            <h2>4.8</h2>
+          </div>
+          <h2>Playstore Rating</h2>
+        </div>
+        <div class="col" id="usersDiv">
+          <div class="users2">
+            <h2><i class="bx bx-code-alt"></i></h2>
+          </div>
+          <h2>coding.org win</h2>
+        </div>
+        <div class="col" id="usersDiv">
+          <div class="users3">
+            <h2>10K+</h2>
+          </div>
+          <h2>Review</h2>
+        </div>
+      </div>
+
+      <!-- review end from here -->
+      <div class="app" data-aos="fade-up" data-aos-duration="2000">
+        <h1>Best android app to</h1>
+        <h1 class="learn">learn programming</h1>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      AOS.init({
+        offset: 300,
+      });
+    </script>
+  </body>
+</html>
